@@ -21,9 +21,13 @@ img {
 	border:10px double DarkSalmon;
     padding: 10px;
 }
+
 </style>
 </head>
 <body>
+<script>
+<button type="button" onclick="myFunction()">Try it</button>
+</script>
 
 <center><h1 id = "h1">Leena Elzeiny</h1>
 </center>
