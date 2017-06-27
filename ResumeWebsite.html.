@@ -34,6 +34,7 @@ function myFunction() {
 <center><h1 id = "h1">Leena Elzeiny</h1>
 </center>
 <h4>This is different</h4>
+<p id="demo">A Paragraph</p>
 <button type="button" onclick="myFunction()">Try it</button>
 <p> The story of a very amazing person:</p>
 
