@@ -41,4 +41,19 @@ function myFunction() {
 <img src="https://s-media-cache-ak0.pinimg.com/736x/61/e7/02/61e702a8f5cc886f733e4061585eb715.jpg" alt="Smiley face" style="float:right;width:100px;height:90px;">
 
 </body>
+<head>
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
+</head>
+
+<body>
+
+<h1>A Web Page</h1>
+<p id="demo">A Paragraph</p>
+<button type="button" onclick="myFunction()">Try it</button>
+
+</body>
 </html>
