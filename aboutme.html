@@ -1,11 +1,17 @@
-
 <!DOCTYPE html>
 <html>
 <head>
 <style>
 div.container {
     width: 100%;
-    border: 1px solid gray;
+    border: 2px solid gray;
+}
+button{
+	background-color: transparent;
+    border: 2px dotted #58D68D;
+    color: #F0B27A;
+    font-family: Cooper;
+    font-size: 120%;
 }
 #h1 {
     color: Peru;
@@ -35,16 +41,27 @@ header, footer {
 </style>
 </head>
 <body>
-	
-<div.class = "container">
+<script>
+function about() {
+    document.getElementById("aboutme").innerHTML = "I can't stand pickles";
+}
+function Scratch() {
+    document.getElementById("scratch").innerHTML = "Jk, I don't have a pickle";
+}
+</script>
 
 <center><h1 id = "h1"> &#10096  Leena Elzeiny &#10097;</h1>
+<button type="button" onclick="about()">About Me</button>
+<button type="button" onclick="Scratch()">Scratch Projects</button>
 </center>
+
 <p> The story of a very amazing person: <br>
 I hate mayo and love long walks </p>
+<p id="aboutme">I love to eat pickles in my free time</p>
+<p id="scratch">This is a pickle</p>
 
 <img src="https://s-media-cache-ak0.pinimg.com/736x/61/e7/02/61e702a8f5cc886f733e4061585eb715.jpg" alt="SNAKE" style="float:right;width:100px;height:90px;">
-
+<div.class = "w3-container">
 <footer>CONTACT ME. I HAVE NO FRIENDS</footer>
 
 </div>
